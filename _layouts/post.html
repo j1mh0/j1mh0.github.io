@@ -1,6 +1,6 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
 <!-- Navi -->
 {% for cat in site.all_categories %}{% if page.category == cat[0] %}<a href="/">首页</a>&nbsp;>&nbsp;<a href="{{cat[2]}}">{{cat[1]}}</a>&nbsp;>&nbsp;正文{% endif %}{% endfor %}
 <!-- Title -->
@@ -13,9 +13,11 @@ layout: default
 <br/>
 <hr>
 <!-- adsense_468x60 -->
+<!--
 <div style="text-align:center;margin-top:15px;">
-	 {% include adsense_468x60.html %} 
+	 {% include adsense_468x60.html %}
 </div>
+-->
 <br/>
 
 <!-- content -->
@@ -37,7 +39,7 @@ layout: default
       {{page.previous.title}}
     </a>
   </span>
-  {%endif%} 
+  {%endif%}
   {%if page.next%}
   <div style="float:right">
   <span class="prev" >
@@ -52,5 +54,5 @@ layout: default
 <hr>
 <!-- Blog Comments -->
 <div class="media">
-  {% include comment.html %} 
+  {% include comment.html %}
 </div>

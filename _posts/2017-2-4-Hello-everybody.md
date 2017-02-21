@@ -1,11 +1,9 @@
 ---
 layout: post
-category: "read"
+category: "archive"
 title:  "欢迎"
-tags: [阅读,人生]
+tags: [文章]
 ---
 ### 欢迎
 
 Hello
-
-

@@ -10,7 +10,7 @@ name: "混沌说"
 url: http://blog.ifansclub.com
 domain: ifansclub.com
 all_categories: [
-["android", "Android开发","/posts/archive.html"], 
+["android", "文章","/posts/archive.html"], 
 ["about", "关于","/about.html"]
 ]
 
